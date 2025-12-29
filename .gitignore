@@ -12,3 +12,8 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+# Large AI models
+backend/models/*.gguf
+backend/models/*.bin
+backend/models/*.pt
+backend/models/*.safetensors
