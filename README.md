@@ -157,9 +157,9 @@ Integration with official advisory platforms
 
 Team
 
-Name: Your Name
+Name: HARISH MADHAVAN S
 Role: Full-Stack & AI Developer
-Contact: your.email@example.com
+Contact: sharishmadhavanhm@gmail.com
 
 Disclaimer
 
