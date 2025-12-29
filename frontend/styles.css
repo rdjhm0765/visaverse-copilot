@@ -1,0 +1,106 @@
+/* ---------------- GLOBAL ---------------- */
+* {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #f8fafc, #eef2ff);
+}
+
+/* ---------------- HEADER ---------------- */
+.header {
+  background: white;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #2563eb;
+}
+
+.tagline {
+  color: #64748b;
+  margin-top: 4px;
+}
+
+/* ---------------- CARD ---------------- */
+.glass-card {
+  background: rgba(255,255,255,0.9);
+  backdrop-filter: blur(8px);
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.08);
+  animation: fadeIn 0.6s ease;
+}
+
+/* ---------------- FORMS ---------------- */
+.field-label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 6px;
+}
+
+.field-input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.field-input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37,99,235,0.15);
+}
+
+/* ---------------- BUTTON ---------------- */
+.primary-btn {
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+  padding: 14px;
+  border-radius: 14px;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+.primary-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 30px rgba(37,99,235,0.35);
+}
+
+/* ---------------- RESULTS ---------------- */
+.result-card {
+  background: white;
+  border-radius: 18px;
+  padding: 26px;
+  box-shadow: 0 18px 40px rgba(0,0,0,0.07);
+}
+
+.score-bar {
+  height: 10px;
+  background: #e5e7eb;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+.score-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #22c55e, #4ade80);
+}
+
+/* ---------------- RISK ---------------- */
+.risk-high { border-left: 5px solid #dc2626; }
+.risk-medium { border-left: 5px solid #f59e0b; }
+.risk-low { border-left: 5px solid #16a34a; }
+
+/* ---------------- ANIMATIONS ---------------- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

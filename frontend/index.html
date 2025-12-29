@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>VisaVerse Copilot</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#2563eb',
+            accent: '#22c55e'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-gray-50 min-h-screen">
+
+<header class="header">
+  <div class="max-w-6xl mx-auto px-6 py-5">
+    <h1 class="logo">VisaVerse Copilot</h1>
+    <p class="tagline">AI-powered assistant for global mobility decisions</p>
+  </div>
+</header>
+
+<main class="max-w-6xl mx-auto px-6 py-10">
+
+  <!-- Input Card -->
+  <section class="glass-card grid md:grid-cols-3 gap-6">
+    <div>
+      <label class="field-label">Destination Country</label>
+      <select id="country" class="field-input"></select>
+    </div>
+
+    <div>
+      <label class="field-label">Purpose</label>
+      <select id="purpose" class="field-input"></select>
+    </div>
+
+    <div class="flex items-end">
+      <button onclick="checkVisa()" class="primary-btn w-full">
+        Check Visa Eligibility
+      </button>
+    </div>
+  </section>
+
+  <!-- Results -->
+  <section id="result" class="mt-10 hidden space-y-8"></section>
+
+</main>
+
+<!-- 🔥 TAILWIND SAFELIST (DO NOT REMOVE) -->
+<div class="hidden">
+  border-red-500 border-yellow-500 border-green-500
+  bg-red-100 bg-yellow-100 bg-green-100
+  bg-red-200 bg-yellow-200 bg-green-200
+  bg-red-500 bg-yellow-500 bg-green-500
+  text-red-700 text-yellow-700 text-green-700
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

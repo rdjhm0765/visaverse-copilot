@@ -1,0 +1,236 @@
+{
+  "Germany": {
+    "Work": {
+      "EU Blue Card": {
+        "eligibility_score": 85,
+        "documents": ["Valid Passport", "Job Offer Letter", "Degree Certificate", "Salary Proof"],
+        "common_rejections": ["Salary below threshold", "Degree not recognized"]
+      }
+    },
+    "Study": {
+      "Student Visa": {
+        "eligibility_score": 90,
+        "documents": ["Admission Letter", "Blocked Account", "Health Insurance"],
+        "common_rejections": ["Insufficient funds", "Fake admission"]
+      }
+    }
+  },
+
+  "USA": {
+    "Work": {
+      "H-1B": {
+        "eligibility_score": 70,
+        "documents": ["Passport", "Employer Offer", "LCA Approval"],
+        "common_rejections": ["Quota exceeded", "Employer ineligible"]
+      }
+    },
+    "Study": {
+      "F-1 Visa": {
+        "eligibility_score": 88,
+        "documents": ["I-20", "SEVIS Fee", "Financial Proof"],
+        "common_rejections": ["Weak interview", "Insufficient funds"]
+      }
+    }
+  },
+
+  "Canada": {
+    "Work": {
+      "Express Entry": {
+        "eligibility_score": 80,
+        "documents": ["Language Test", "ECA", "Proof of Funds"],
+        "common_rejections": ["Low CRS score", "Missing ECA"]
+      }
+    },
+    "PR": {
+      "Permanent Residence": {
+        "eligibility_score": 78,
+        "documents": ["Medical Exam", "Police Clearance"],
+        "common_rejections": ["Incomplete documents"]
+      }
+    }
+  },
+
+  "UK": {
+    "Work": {
+      "Skilled Worker Visa": {
+        "eligibility_score": 82,
+        "documents": ["COS", "English Test", "Job Offer"],
+        "common_rejections": ["Salary below requirement"]
+      }
+    },
+    "Study": {
+      "Student Visa": {
+        "eligibility_score": 87,
+        "documents": ["CAS", "Financial Proof"],
+        "common_rejections": ["Interview failure"]
+      }
+    }
+  },
+
+  "Australia": {
+    "Work": {
+      "Subclass 482": {
+        "eligibility_score": 75,
+        "documents": ["Skills Assessment", "Job Offer"],
+        "common_rejections": ["Employer not approved"]
+      }
+    },
+    "PR": {
+      "Subclass 189": {
+        "eligibility_score": 77,
+        "documents": ["Points Test", "Skills Assessment"],
+        "common_rejections": ["Low points"]
+      }
+    }
+  },
+
+  "France": {
+    "Work": {
+      "Talent Passport": {
+        "eligibility_score": 83,
+        "documents": ["Employment Contract", "Degree"],
+        "common_rejections": ["Incomplete paperwork"]
+      }
+    }
+  },
+
+  "Netherlands": {
+    "Work": {
+      "Highly Skilled Migrant": {
+        "eligibility_score": 84,
+        "documents": ["Employer Sponsorship", "Salary Proof"],
+        "common_rejections": ["Employer not recognized"]
+      }
+    }
+  },
+
+  "Sweden": {
+    "Work": {
+      "Work Permit": {
+        "eligibility_score": 80,
+        "documents": ["Job Contract", "Insurance"],
+        "common_rejections": ["Insufficient salary"]
+      }
+    }
+  },
+
+  "Ireland": {
+    "Work": {
+      "Critical Skills Permit": {
+        "eligibility_score": 85,
+        "documents": ["Job Offer", "Degree"],
+        "common_rejections": ["Non-critical occupation"]
+      }
+    }
+  },
+
+  "Singapore": {
+    "Work": {
+      "Employment Pass": {
+        "eligibility_score": 82,
+        "documents": ["Job Offer", "Salary Proof"],
+        "common_rejections": ["Low salary"]
+      }
+    }
+  },
+
+  "UAE": {
+    "Work": {
+      "Work Visa": {
+        "eligibility_score": 88,
+        "documents": ["Offer Letter", "Medical Test"],
+        "common_rejections": ["Medical failure"]
+      }
+    }
+  },
+
+  "Japan": {
+    "Work": {
+      "Engineer Visa": {
+        "eligibility_score": 79,
+        "documents": ["Degree", "COE"],
+        "common_rejections": ["Degree mismatch"]
+      }
+    }
+  },
+
+  "South Korea": {
+    "Work": {
+      "E-7 Visa": {
+        "eligibility_score": 76,
+        "documents": ["Employment Contract"],
+        "common_rejections": ["Low experience"]
+      }
+    }
+  },
+
+  "Italy": {
+    "Work": {
+      "Work Permit": {
+        "eligibility_score": 74,
+        "documents": ["Nulla Osta"],
+        "common_rejections": ["Quota limit"]
+      }
+    }
+  },
+
+  "Spain": {
+    "Work": {
+      "Work Visa": {
+        "eligibility_score": 78,
+        "documents": ["Contract", "Residence Proof"],
+        "common_rejections": ["Incomplete documents"]
+      }
+    }
+  },
+
+  "Norway": {
+    "Work": {
+      "Skilled Worker Visa": {
+        "eligibility_score": 81,
+        "documents": ["Job Offer", "Degree"],
+        "common_rejections": ["Low salary"]
+      }
+    }
+  },
+
+  "New Zealand": {
+    "Work": {
+      "Accredited Employer Visa": {
+        "eligibility_score": 80,
+        "documents": ["Employer Accreditation"],
+        "common_rejections": ["Employer not accredited"]
+      }
+    }
+  },
+
+  "Switzerland": {
+    "Work": {
+      "Work Permit": {
+        "eligibility_score": 73,
+        "documents": ["Employer Sponsorship"],
+        "common_rejections": ["Quota exceeded"]
+      }
+    }
+  },
+
+  "Denmark": {
+    "Work": {
+      "Pay Limit Scheme": {
+        "eligibility_score": 82,
+        "documents": ["Salary Proof"],
+        "common_rejections": ["Salary below threshold"]
+      }
+    }
+  },
+
+  "Finland": {
+    "Work": {
+      "Specialist Visa": {
+        "eligibility_score": 84,
+        "documents": ["Job Offer", "Degree"],
+        "common_rejections": ["Role not specialized"]
+      }
+    }
+  }
+}
