@@ -1,135 +1,78 @@
 VisaVerse Copilot
+
 AI-Powered Global Mobility & Visa Decision Assistant
+
 Overview
 
-VisaVerse Copilot is an AI-driven assistant designed to help users understand, prepare, and improve their visa applications. Many visa rejections occur not because of fraud, but due to lack of clarity, incomplete documentation, and misunderstanding of decision criteria. VisaVerse Copilot addresses this gap by simulating real visa case officer reasoning, analyzing application risk, and providing actionable improvement guidance before submission.
+VisaVerse Copilot is an AI-driven assistant that helps users understand, prepare, and improve their visa applications. It simulates case officer reasoning, analyzes application risk, and provides actionable improvement guidance, reducing common rejection causes like incomplete documentation or misunderstandings.
 
-Built for the VisaVerse AI Hackathon, this project aligns with the mission of enabling global mobility, borderless collaboration, and accessible international opportunities through artificial intelligence.
+Built for the VisaVerse AI Hackathon, it promotes global mobility, borderless collaboration, and accessible international opportunities.
 
-PROBLEM STATEMENT
+Problem
 
-Visa application processes are often complex, opaque, and stressful. Applicants receive limited feedback and have no way to evaluate their chances or understand rejection risks beforehand. This disproportionately affects students, first-time travelers, and international workers.
+Visa processes are complex and opaque. Applicants often struggle to:
 
-Applicants commonly struggle with:
+Understand eligibility requirements
 
-Understanding eligibility requirements
+Identify weak points in their application
 
-Identifying weak points in their application
+Know improvements to increase approval chances
 
-Knowing what improvements can increase approval chances
+Solution
 
-SOLUTION
+VisaVerse Copilot acts as a virtual visa advisor:
 
-VisaVerse Copilot acts as a virtual visa advisor and case officer simulator. It provides clear explanations, predicts potential risks, and helps users strengthen their application using AI-driven reasoning and analysis.
+AI Visa Explanation: Breaks down visa rules in simple, human-readable language
 
-KEY FEATURES
-AI Visa Explanation
+Case Officer Simulation: Shows how applications are evaluated and highlights concerns
 
-Explains visa eligibility in simple, human-readable language
+Risk Analysis Card: Estimates approval risk and explains reasoning
 
-Breaks down complex visa rules and requirements
+Improvement Suggestions: Provides priority-based actionable guidance
 
-Adapts explanations based on visa type and applicant profile
+Technology Stack
 
-Case Officer Simulation
+Frontend: HTML, CSS, JavaScript
 
-Simulates real visa officer decision logic
+Backend: Python (Flask)
 
-Displays strengths, concerns, and red flags
+AI/ML: LLaMA-based model (local), rule-based checks, risk scoring algorithms
 
-Helps users understand how applications are evaluated
+Database: JSON rules
 
-Risk Analysis Card
+Architecture
+Frontend (UI) → Backend API → AI Engine
+                        ├─ Eligibility Rules
+                        ├─ Case Officer Simulation
+                        └─ Risk Analysis & Explanation
 
-Estimates approval risk (Low / Medium / High)
+Model Setup
 
-Highlights key risk factors such as finances, travel history, and intent
+Note: Model file not included due to GitHub limits.
 
-Provides transparent and explainable decision reasoning
+Download a compatible .gguf model (e.g., Llama-3.2-3B-Instruct)
 
-Improvement Suggestions
+Place it in backend/models/
 
-AI-generated recommendations to improve approval chances
+Update the path in app.py if needed
 
-Priority-based guidance (High, Medium, Low impact)
+Installation & Run
+# Clone the repo
+git clone https://github.com/rdjhm0765/visaverse-copilot
 
-Helps users proactively fix issues before applying
-
-AI & Decision Logic
-
-VisaVerse Copilot uses a hybrid AI approach combining rule-based validation and language model reasoning.
-
-Inputs
-
-Applicant profile details
-
-Visa type and country selection
-
-Financial, employment, and travel history
-
-AI Components
-
-Eligibility rule engine
-
-Case officer reasoning simulation
-
-Risk scoring and explanation logic
-
-Outputs
-
-Eligibility explanation
-
-Simulated case officer notes
-
-Risk assessment and improvement guidance
-
-This system is intended for educational and preparatory use only and does not provide legal advice.
-
-Architecture Overview:
-----------------
-Frontend (User Interface)
-        ↓
-Backend API (Business Logic)
-        ↓
-AI Engine
- ├─ Eligibility Rules
- ├─ Case Officer Simulation
- └─ Risk Analysis & Explanation
-
-Tech Stack
-
-FRONTEND
-
-HTML, CSS, JavaScript
-
-Responsive user interface
-
-BACKEND
-
-Python
-
-Flask REST API
-
-AI / ML
-
-Large Language Model (LLM) for reasoning and explanations
-
-Rule-based eligibility checks
-
-Risk scoring algorithms
-
-How to Run
-# Clone the repository
-git clone https://github.com/your-rdjhm0765/visaverse-copilot
+# Create & activate virtual environment
+python -m venv venv
+venv\Scripts\activate   # Windows
+source venv/bin/activate # Linux/Mac
 
 # Install dependencies
-pip install -r requirements.txt
+pip install -r backend/requirements.txt
 
-# Start the backend server
-python app.py
+# Run backend
+python backend/app.py
 
 
-Open the frontend in a browser and interact with VisaVerse Copilot.
+Open frontend/index.html in a browser to interact with the Copilot.
 
 Use Cases & Impact
 
@@ -137,11 +80,7 @@ Students applying for international education
 
 Professionals seeking work visas
 
-Tourists and short-term travelers
-
-First-time applicants needing guidance
-
-VisaVerse Copilot promotes fairness, clarity, and confidence in global mobility decisions.
+Tourists and first-time applicants needing guidance
 
 Future Enhancements
 
@@ -151,20 +90,14 @@ Multilingual support
 
 Live immigration policy updates
 
-Accessibility support for low-bandwidth regions
-
-Integration with official advisory platforms
+Accessibility for low-bandwidth regions
 
 Team
 
-Name: HARISH MADHAVAN S
-Role: Full-Stack & AI Developer
-Contact: sharishmadhavanhm@gmail.com
+1.Harish Madhavan S – Full-Stack & AI Developer
+sharishmadhavanhm@gmail.com
+2.Hari Venkatanarayanan V
 
 Disclaimer
 
-VisaVerse Copilot is an AI-powered informational tool and does not replace official government immigration portals or professional legal advice.
-
-Conclusion
-
-VisaVerse Copilot demonstrates how responsible AI can make complex visa systems more transparent and accessible, helping individuals move, work, and collaborate across borders with greater confidence.
+Informational tool only; does not replace official immigration portals or legal advice.
