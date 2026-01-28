@@ -96,7 +96,7 @@ Team
 
 1.Harish Madhavan S – Full-Stack & AI Developer
 sharishmadhavanhm@gmail.com
-2.Hari Venkatanarayanan V
+
 
 Disclaimer
 
